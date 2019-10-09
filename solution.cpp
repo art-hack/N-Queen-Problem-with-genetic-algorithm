@@ -195,6 +195,9 @@ while(fitness_value(v[0])>0){
 // cout<<endl;
 
 cout<<"Found Solution in Generation "<<generation<<endl;
+FOR(i,N)
+  cout<<v[0][i]<<" ";
+cout<<endl;
 FOR(i,N){
     FOR(j,N){
         if(v[0][i]==(j+1))
